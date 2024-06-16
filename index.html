@@ -35,10 +35,23 @@
             background-color: rgba(255, 255, 255, 0.724);
             color: black;
             font-size: 2rem;
-            width: 30%;
+            width: 35%;
             height: 15%;
             padding-left: 0px;
             text-align: center;
+        }
+
+        @media (width <= 450px) {
+            .main > .counting {
+                width: 70%;
+            }
+
+            .icons > span > i {
+                font-size: 1rem;
+                position: relative;
+                top: 20%;
+                left: 28%;
+            }
         }
         
         .icons {
@@ -56,10 +69,10 @@
         }
 
         span > i {
-            font-size: 0.8rem;
+            font-size: 1.05rem;
             position: relative;
-            top: 15%;
-            left: 40%;
+            top: 22%;
+            left: 45%;
         }
         
     </style>
